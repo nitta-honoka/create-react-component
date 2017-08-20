@@ -1,0 +1,30 @@
+{
+  "name": "create-react-component",
+  "version": "0.0.1",
+  "description": "a simple react component generator with custom templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo": "create new /demo/output/table.js /demo/templates/table.js"
+  },
+  "bin": {
+    "create": "src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitta-honoka/create-react-component.git"
+  },
+  "keywords": [
+    "create-react-component",
+    "generator"
+  ],
+  "author": "nitta-honoka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nitta-honoka/create-react-component/issues"
+  },
+  "homepage": "https://github.com/nitta-honoka/create-react-component#readme",
+  "dependencies": {
+    "commander": "^2.11.0"
+  }
+}
